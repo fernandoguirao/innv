@@ -402,8 +402,20 @@ h4 strong {
 	font-weight: bold;
 }
 .top-bar #lang_sel_list {
-	display: none;
+	/*display: none;*/
+	height: initial;
+	margin-top:4px;
+	background-color:transparent!important;
 }
+#lang_sel_list a, #lang_sel_list a:visited {
+	background-color: transparent!important;
+	font-family:'Open Sans', sans-serif;
+}
+
+#lang_sel_list ul {
+    border-top: 1px transparent!important;
+}
+
 @media(max-width:768px){
 	.mailicon {
 		display: none;

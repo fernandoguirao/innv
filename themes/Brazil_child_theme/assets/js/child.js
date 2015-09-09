@@ -507,9 +507,11 @@ jQuery(window).load(function() {
 /*  Super Slides
 /* ---------------------------------------------------------------------- */
 
+if(jQuery('.max-hero').length > 0){
 jQuery('.max-hero').superslides({
 		  animation: 'fade'
 		});
+}
   
 /* ---------------------------------------------------------------------- */
 /*  fitVids
