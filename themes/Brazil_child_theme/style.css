@@ -1,0 +1,570 @@
+/*
+ Theme Name:     Brazil Child
+ Theme URI:      http://webnus.biz/themes/brazil-wp/
+ Description:    Brazil Child Theme
+ Author:         WEBNUS
+ Author URI:     http://themeforest.net/user/WEBNUS
+ Template:       brazil-wp
+ Version:        2.2.0
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+/*HEADER*/
+
+#header .img-logo-w1 {
+	margin-top:-25px;
+}
+
+#header {
+	height:58px;
+}
+
+/*ELEMENTOS*/
+
+
+.inno-thumb {
+	width: 31.6%!important;
+	margin: 1% 0.8% !important;
+	height: 300px;
+	overflow: hidden;
+}
+
+.img-thumb {
+	padding-left: .7%;
+}
+
+.container-centered {
+	  width: auto!important;
+		margin-right: auto!important;
+		margin-left: auto!important;
+		padding-left: 10px!important;
+		padding-right: 10px!important;
+}
+
+@media (min-width: 1200px) {
+	.container-centered {
+	  width: 1120px!important;
+	}
+}
+
+@media (min-width: 961px){
+	.container-centered {
+	  width: 960px!important;
+	}
+}
+
+
+.progress-circles .max-count {
+	height: 83px!important;
+	border: 5px solid #3B969F!important;
+}
+@media(min-width:1200px){
+	.progress-circles .max-count {
+		height: 111px!important;
+	}
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.img-fill img {
+	width:100%;
+}
+
+.page-id-3641 .fa-exclamation-circle {
+	float:left;
+}
+
+.bloqueicono {
+	left: 10px;
+	position: relative;
+	top: 12px;
+}
+
+.bloqueicono p a {
+	top: -21px;
+	position: relative;
+}
+
+.wpb_accordion_header a {
+	font-family: 'Open Sans'!important;
+	text-transform: none!important;
+	letter-spacing: normal!important;
+	margin-left:60px!important;
+} 
+
+#wrap .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content {
+  padding: 0 20px 30px 99px;
+}
+
+.full-link a {
+	width:100%;
+	text-transform: none;
+	padding:40px;
+	border-radius:0!important;
+	text-shadow:none!important;
+	font-size:20px;
+	font-weight:lighter;
+}
+
+/*EQUIPO*/
+
+.our-team {
+	border:none;
+}
+
+.our-team p {
+	display: none;
+}
+
+/*CONTACTO*/
+
+.contact-form {
+	border:none;
+	padding:0;
+}
+.contact-form form {
+	padding:0;
+}
+
+.erabox {
+	margin-top:0!important;
+	padding:0!important;
+	border:0!important;
+}
+
+.contact-inf {
+  min-height: 128px;
+}
+
+.page-template-contact {
+	background-color: #F1F2F3;
+}
+
+#contact-map iframe{
+	height:220px!important;
+}
+
+/*SLIDER*/
+a.tp-button.orange.small.inno-btn {
+  text-shadow: none!important;
+  box-shadow: none!important;
+  background-image: none;
+  border-radius: 0;
+  padding: 10px 22px!important;
+  background-color: #E2A727;
+}
+
+/*BOTONES*/
+
+.button.blue {
+	background:#3B969F;
+}
+
+.button.blue:hover {
+	background:#54B5BE;
+}
+
+/*TABS*/
+.wpb_tab,.wpb_tabs_nav,.ui-tabs-active,.wpb_tabs_nav li {
+  border: none!important;
+  background-color:transparent!important;
+}
+
+.wpb_tabs_nav li a {
+	padding-left:10px!important;
+	padding-right:10px!important;
+}
+.wpb_tabs_nav li a {
+	color:#3B969F!important;
+}
+.ui-tabs-active a {
+	font-size:15px!important;
+	font-weight: bolder;
+}
+
+.ui-tabs-panel {
+	padding:0 10px!important;
+	margin-top:-10px;
+}
+
+/*TABS SERVICIOS*/
+
+.serviciostab {
+	overflow: hidden;
+}
+.serviciostab .ui-tabs-active a {
+  background-color:#041D2E!important;
+}
+
+.serviciostab .ui-tabs-nav li {
+  width: 25%;
+  text-align: center;
+
+}
+
+.serviciostab .ui-tabs-nav li a{
+	background-color: #F1F2F3;
+	text-transform: uppercase;
+	padding:32px!important;
+}
+
+/*FOOTER*/
+
+.footer-in h5.subtitle {
+	border-color:transparent!important;
+	text-transform: none;
+  letter-spacing: inherit;
+  font-size: 13px;
+  box-shadow: none;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  margin-top:50px;
+}
+
+#footer .widget ul li {
+	border-color:transparent!important;
+}
+
+#footer .widget ul li:hover {
+	background-color:none!important;
+	color:white;
+}
+#footer .footer-in .widget ul li:hover {
+  background: rgba(0,0,0,.05);
+}
+
+.footer-subscribe-submit {
+	display: none;
+}
+
+.footer-subscribe-email {
+	border-radius:none;
+	padding-left:10px!important;
+	padding-right:10px!important;
+}
+
+.footer-in {
+	background-image:url('../../uploads/2015/07/Mapamundi.png');
+	background-position:center;
+	background-size:cover;
+	margin-top: -17px;
+	padding-top: 17px;
+}
+
+.footer-navi {
+	width: 400px;
+	height: 79px;
+	margin-top: -11px;
+	text-align: left;
+}
+
+.footer-navi .socialfollow {
+	width:100%;
+	margin-bottom: 5px;
+}
+
+.footer-navi.floatright {
+	text-align: right;
+}
+.footer-navi .socialfollow a i {
+	color:gray;
+	margin-bottom: 10px;
+}
+.footer-navi .socialfollow a {
+	float:right;
+}
+
+#footer {
+	background-color: #191B27;
+}
+/*SOLUCIONES*/
+
+.inno-separator {
+	margin-top: -23px;
+	margin-bottom: 27px;
+}
+
+/*BLOG*/
+
+
+.blog aside.sidebar,.single aside.sidebar {
+  padding-top: 0;
+  margin-top: -54px;
+}
+
+.blog aside.sidebar .subtitle,.single aside.sidebar .subtitle {
+	letter-spacing: 0;
+	font-size: 14px;
+}
+.blog aside.sidebar a,.single aside.sidebar a {
+	color:#2893BE;
+}
+.blogz {
+	padding:0;
+}
+.blog #headline {
+	border:none;
+	padding-bottom: 0;
+}
+.blog #headline h3 {
+	font-weight: bolder;
+	color:black;
+	padding-left: 7px;
+	padding-top:12px;
+}
+.blog .blog-post {
+	height: 450px;
+	overflow:hidden;
+}
+.blog .blog-date-sec {
+  padding-right: 0;
+  font-family: "Open Sans";
+  border-right: none;
+ 	height: inherit!important;
+ 	width:100%!important;
+}
+.blog .blog-date-sec p {
+  margin-bottom: 8px;
+  letter-spacing: 0;
+  font-size: 15px;
+  text-align: left;
+}
+.col-md-12.omega {
+	padding-left: 0;
+}
+.blog-cat a {
+  color: #2893BE;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 13px;
+}
+.align-right {
+	text-align: right;
+}
+.single .align-right {
+	float: right;
+	margin-bottom: 41px;
+	margin-top: 45px;
+	width: 280px;
+	text-align: center;
+}
+.single .postmetadata h6 {
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 15px;
+}
+.single .postmetadata h6 a {
+  color: #2893BE;	
+}
+
+.single h1 {
+	margin-top: 17px;
+	margin-bottom:21px;
+}
+
+#nav-wrap #search-form {
+	display: none;
+}
+
+.mailicon {
+	position: absolute;
+	background-color: #031E2F;
+	z-index: 1000000000;
+	width: 74px;
+	height: 64px;
+	color: white;
+	right:0;
+	padding: 16px 22px;
+}
+.mailicon i {
+	color:white;
+	font-size: 32px;
+}
+
+#nav a {
+	font-size:14px;
+}
+
+.custom-bars .vc_progress_bar .vc_single_bar,.custom-bars  .vc_bar.animated.striped {
+	height:27px!important;
+}
+
+.right-bars {
+	margin-top: 11px;
+}
+
+h4 strong {
+	font-weight: bold;
+}
+.top-bar #lang_sel_list {
+	display: none;
+}
+@media(max-width:768px){
+	.mailicon {
+		display: none;
+	}
+	.socialfollow.rgtflot {
+		margin-top: -36px;
+		position: absolute;
+		right: 0;
+	}
+	.top-bar {
+		background-color: transparent;
+		height: 29px;
+		border: none;
+		background:none;
+	}
+	#header.sm-rgt-mn .logo-wrap .logo img {
+		max-height: 94px;
+	}
+	#header.sm-rgt-mn .logo-wrap .logo a {
+		position: absolute;
+		margin-top: 20px;
+	}
+	#header.sm-rgt-mn #menu-icon i {
+		font-size:28px;
+	}
+	#header.sm-rgt-mn #menu-icon {
+	  margin-top: 28px;
+	 }
+	 .progress-circles .max-count {
+	 	height: 186px!important;
+	 }
+	 .vc_single_image-wrapper {
+	 	text-align: center!important;
+	 }
+	 .wp-image-3606 {
+	 	display: none!important;
+	 }
+	 #wrap .wpb_content_element .wpb_tabs_nav .ui-state-active,#wrap .wpb_tabs .wpb_tabs_nav li, #wrap .wpb_content_element .wpb_tabs_nav li, .wpb_tour .wpb_tabs_nav {
+	 	width:100%!important;
+	 }
+	 footer {
+	 	overflow: hidden;
+	 }
+	 .footer-navi img {
+		display: none;
+	 }
+	 .footer-navi.floatright {
+	   text-align: left;
+	 }
+	 .footer-navi .socialfollow a {
+	   float: left;
+	 }
+}
+
+/* TRABAJA CON NOSOTROS*/
+.wpcf7-form-control.wpcf7-file,.wpcf7-form-control-wrap.file-34 {
+	display: block;
+	width: 100%;
+}
+#wpcf7-f3831-p3741-o1 p {
+	text-align:center;
+	color:white;
+}
+#wpcf7-f3831-p3741-o1 .wpcf7-email {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/*CONTACTO*/
+
+.page-id-237 #main-content {
+	background-color:#F1F2F3;
+}
+
+@media(max-width:768px){
+		.page-id-237 #main-content {
+			margin-top: 33px!important;
+			padding-top:30px;
+		}
+}
+
+.contact-form .erabox {
+	background-color: transparent;
+}
+.contact-form .txbx {
+	background-color: white;
+	border:none;
+	border-radius: 0;
+}
+.contact-form h5 {
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+.contact-form .sendbtn {
+	text-align: left;
+	margin-left: 26px;
+	border: transparent;
+	background-color: #DEA828;
+	color: white;
+	text-transform: none;
+	font-weight: normal;
+}
+.contact-form input {
+	margin-bottom: 0;
+}
+.contact-form .era {
+	min-height: 128px;
+}
+
+/*Single solución*/
+.singleslider .ls-slide p.ls-l {
+	margin-left:10%!important;
+	font-size:14px!important;
+	padding-top:29px!important;
+	text-align: left!important;
+}
+
+.ls-wp-container {
+	border-bottom:none!important;
+}
+
+.ls-nav-prev,.ls-nav-next {
+	margin-top:-39px!important;
+}
+.ls-nav-prev {
+	margin-left: -14px!important;
+}
+    
+.ls-nav-next {
+	margin-left: 14px!important;
+}
+
+.icontabs .wpb_tabs_nav a {
+	background-color:#B0B1B5!important;
+	color:white!important;
+	text-align: center;
+	padding-top: 18px!important;
+	padding-bottom: 18px!important;
+}
+
+.icontabs li.ui-tabs-active a {
+	background-color:#191B27!important;
+	color:white!important;
+}
+
+.icontabs .wpb_tabs_nav {
+	padding-top:0!important;
+}
+
+.icontabs li {
+	padding: 0 20%!important;
+}
+
+/*.hiderow,#hidee {
+	display: none;
+}*/
+
+/*HOME*/
+
+.testimonial img {
+	max-width: 200px!important;
+	display: inline-block!important;
+}
